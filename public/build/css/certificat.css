@@ -1,0 +1,73 @@
+.feuille
+{
+    background-color: #e8e8e9;
+}
+.feuillet
+{
+    border-top: 1px solid #e8e8e9;
+    border-bottom: 1px solid #e8e8e9;
+}
+#word-content
+{
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+}
+
+.p1
+{
+    position: relative;
+    margin: 2px;
+    top: 15px;
+    margin-left: 80px;
+    font-family: "Brush Script MT";
+    font-size: 11px;
+}
+
+.p2
+{
+    position: relative;
+    margin-top: 15px;
+    top: 15px;
+    font-family: "Brush Script MT";
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p3
+{
+    margin: 1px;
+    position: relative;
+    top: 15px;
+    margin-left: 80px;
+    font-family: "Lucida Handwriting";
+    font-size: 11px;
+}
+
+.p4
+{
+    margin: 1px;
+    position: relative;
+    top: 15px;
+    margin-left: 120px;
+    font-family: "Lucida Handwriting";
+    font-size: 11px;
+}
+
+.p5
+{
+    position: relative;
+    top: 15px;
+    margin-left: 430px;
+    font-family: "Lucida Handwriting";
+    font-size: 11px;
+}
+
+.action
+{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 832px;
+}

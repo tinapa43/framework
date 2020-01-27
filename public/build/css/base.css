@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html,body
+{
+    height: 100%;
+}
+
+.dropUser
+{
+    left: -100px;
+}
+
+.yearImg
+{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -22px;
+    margin-top: 0px;
+}
+
+.profileImg
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+}
+
+.navigBar
+{
+    width: 100%;
+}
+
+.menuBurger
+{
+    position: relative;
+    left: 5px;
+    size: 35px;
+}
+
+.classeBar
+{
+    margin-top: -30px;
+}
+
+.classeBtn
+{
+
+}
+
+.formSearch
+{
+    position: relative;
+    margin-left: 320px;
+}
+
+.formSearchListe
+{
+    position: relative;
+    margin-left: 370px;
+}
+
+.search
+{
+    margin-top: -10px;
+}
+
+.petitPoucet
+{
+    font-size: 30px;
+    font-family: Roboto;
+    position: relative;
+    left: 20px;
+}
+
+.logout
+{
+    float: right;
+}
+
+.content
+{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar
+{
+    padding-top: 50px;
+    float: left;
+    margin-left: 0px;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    transition: all 200ms linear;
+    background-color: #90caf9; /*:#e1f5fe*/
+}
+
+.sidebar.active
+{
+    margin-left: -200px;
+}
+
+.sidebar-divider
+{
+    margin-left: -50px;
+}
+
+.profileText
+{
+    position: relative;
+    left: -25px;
+    width: 100%;
+}
+
+.sidelist
+{
+    color: #f1f2f3;
+    font-size: 20px;
+    position: relative;
+    left: -25px;
+    width: 100%;
+}
+
+.sidelist:hover
+{
+    transition: 0.3s all;
+    color: white;
+}
+
+.sidelist.active
+{
+    color: white;
+    background-color: #00e5ff;
+}
+
+.side-icon
+{
+    position: relative;
+    margin-top: 10px;
+}
+
+.container
+{
+    flex: 1;
+    flex-wrap: wrap;
+}
+/* Element de la sidebar*/
+
+
+mt
+{
+    background-color: #90caf9;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-menu
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* DETAIL */
+
+.remarque
+{
+    position: relative;
+    margin-left: 650px;
+
+}
+
+/* INSCRIPTION */
+.cont
+{
+    margin-top: -25px;
+}
+.presco
+{
+    color: dodgerblue;
+}
+.prim{
+    color: slateblue;
+}
+.secon
+{
+    color: rebeccapurple;
+}
+
+.prescolaire
+{
+    background-color: dodgerblue;height: 30px
+}
+.primaire
+{
+    background-color: slateblue;height: 30px
+}
+.secondaire
+{
+    background-color: rebeccapurple;height: 30px
+}
+
+.resultat
+{
+    text-align: left;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
