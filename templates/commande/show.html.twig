@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Commande{% endblock %}
+
+{% block body %}
+    <h1>Commande</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ commande.id }}</td>
+            </tr>
+            <tr>
+                <th>Client</th>
+                <td>{{ commande.client.nom }}</td>
+            </tr>
+            <tr>
+                <th>Produit</th>
+                <td>{{ commande.produit.libelle }}</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>{{ commande.date ? commande.date|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>QteComm</th>
+                <td>{{ commande.qteComm }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a class="btn btn-light" href="{{ path('commande_index') }}">back to list</a>
+
+    <a class="btn btn-primary float-right"  href="{{ path('commande_edit', {'id': commande.id}) }}">edit</a>
+{% endblock %}
