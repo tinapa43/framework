@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Category{% endblock %}
+
+{% block body %}
+    <h1>Category</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ category.id }}</td>
+            </tr>
+            <tr>
+                <th>Libelle</th>
+                <td>{{ category.libelle }}</td>
+            </tr>
+            <tr>
+                <th>Qte</th>
+                <td>{{ category.qte }}</td>
+            </tr>
+            <tr>
+                <th>Prix</th>
+                <td>{{ category.prix }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a class="btn btn-light" href="{{ path('category_index') }}">back to list</a>
+
+    <a class="btn btn-primary float-right" href="{{ path('category_edit', {'id': category.id}) }}">edit</a>
+
+{% endblock %}
